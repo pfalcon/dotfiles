@@ -1,0 +1,14 @@
+[user]
+	name = Paul Sokolovsky
+	email = pfalcon@users.sourceforge.net
+[alias]
+	br = branch
+	co = checkout
+	ci = commit
+	c-p = cherry-pick
+	di = diff
+	st = status
+[color]
+	ui = auto
+[push]
+	default = simple
