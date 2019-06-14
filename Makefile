@@ -5,4 +5,4 @@ dirs:
 	mkdir -p ~/.local/bin
 
 packages:
-	sudo apt install mc joe
+	sudo apt install mc joe picocom
