@@ -6,3 +6,6 @@ dirs:
 
 packages:
 	sudo apt install mc joe picocom
+
+groups:
+	sudo usermod -aG dialout $$USER
