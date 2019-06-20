@@ -1,0 +1,9 @@
+Based on https://forums.linuxmint.com/viewtopic.php?t=240295#p1607777
+
+sudo nano /usr/share/applications/viber.desktop
+
+Exec=/opt/viber/Viber %u
+
+to
+
+Exec=bash -c "QT_SCALE_FACTOR=1.3 /opt/viber/Viber %u"
