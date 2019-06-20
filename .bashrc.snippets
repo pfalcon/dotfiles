@@ -1,0 +1,12 @@
+# .profile is executed only once on startup
+# .bashrc on opening each new bash session
+
+# Works aroun 8 colors only issue in MATE Terminal.
+# See https://github.com/mate-desktop/mate-terminal/issues/209
+export TERM=xterm-256color
+
+# If experience some spam from ATK aka "accessibility bus"
+export NO_AT_BRIDGE=1
+
+# less: case-insensitive search and allow control escapes to be rendered, not quoted
+export LESS=-Ri
