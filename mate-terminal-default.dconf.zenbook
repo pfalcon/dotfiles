@@ -1,0 +1,16 @@
+[/]
+foreground-color='#000000000000'
+visible-name='Default'
+palette='#000000000000:#CDCD00000000:#0000CDCD0000:#CDCDCDCD0000:#0D0D49499999:#CDCD0000CDCD:#0000CDCDCDCD:#FAFAEBEBD7D7:#404040404040:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#3CA1880BF92B:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF'
+alternate-screen-scroll=true
+use-system-font=false
+silent-bell=true
+use-theme-colors=true
+font='Monospace 12'
+allow-bold=true
+scrollback-unlimited=true
+bold-color-same-as-fg=false
+bold-color='#000000000000'
+background-color='#FFFFFFFFDDDD'
+cursor-blink-mode='on'
+scrollback-lines=3000
