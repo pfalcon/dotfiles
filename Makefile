@@ -5,7 +5,7 @@ dirs:
 	mkdir -p ~/.local/bin
 
 packages:
-	sudo apt install mc joe picocom sqlite3
+	sudo apt install btrfs-progs gnome-disk-utility joe mc picocom sqlite3
 
 groups:
 	sudo usermod -aG dialout $$USER
