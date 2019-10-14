@@ -7,3 +7,12 @@ Exec=/opt/viber/Viber %u
 to
 
 Exec=bash -c "QT_SCALE_FACTOR=1.3 /opt/viber/Viber %u"
+
+---
+
+Problem: After packages upgrades (apparently, Qt-related), Viber starts with
+completely white window.
+
+Solution (from https://ubuntuforums.org/showthread.php?t=2412294):
+
+rm -rf ~/.cache/qtshadercache
