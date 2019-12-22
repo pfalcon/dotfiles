@@ -10,3 +10,7 @@ packages:
 
 groups:
 	sudo usermod -aG dialout $$USER
+
+# Tell dash to give up on /bin/sh (requires interaction)
+dash:
+	sudo dpkg-reconfigure dash
