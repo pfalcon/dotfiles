@@ -8,7 +8,7 @@ dirs:
 packages:
 	sudo apt install btrfs-progs gcc-multilib g++-multilib gnome-disk-utility \
 	    joe libffi-dev libffi-dev:i386 mc picocom pkg-config sqlite3 traceroute \
-	    aspell-ru catdoc rlwrap eog
+	    aspell-ru catdoc rlwrap eog sloccount
 
 groups:
 	sudo usermod -aG dialout $$USER
