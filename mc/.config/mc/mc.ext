@@ -552,7 +552,8 @@ type/WebM
     Include=video
 
 include/video
-	Open=/usr/lib/mc/ext.d/video.sh open ALL_FORMATS
+#	Open=/usr/lib/mc/ext.d/video.sh open ALL_FORMATS
+	Open=mplayer -really-quiet %f
 	View=%view{ascii} /usr/lib/mc/ext.d/video.sh view ALL_FORMATS
 
 
