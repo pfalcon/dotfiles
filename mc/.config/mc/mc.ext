@@ -461,7 +461,8 @@ shell/i/.svg
 	Open=/usr/lib/mc/ext.d/image.sh open svg
 
 include/image
-	Open=/usr/lib/mc/ext.d/image.sh open ALL_FORMATS
+#	Open=/usr/lib/mc/ext.d/image.sh open ALL_FORMATS
+	Open=eog %f &
 	View=%view{ascii} /usr/lib/mc/ext.d/image.sh view ALL_FORMATS
 
 
