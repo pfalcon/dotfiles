@@ -481,8 +481,9 @@ shell/i/.mp3
 	Open=/usr/lib/mc/ext.d/sound.sh open mp3
 	View=%view{ascii} /usr/lib/mc/ext.d/sound.sh view mp3
 
-regex/i/\.og[gax]$
-	Open=/usr/lib/mc/ext.d/sound.sh open ogg
+regex/i/\.(og[gax]|opus)$
+#	Open=/usr/lib/mc/ext.d/sound.sh open ogg
+	Open=mplayer %f
 	View=%view{ascii} /usr/lib/mc/ext.d/sound.sh view ogg
 
 regex/i/\.(spx|flac)$
