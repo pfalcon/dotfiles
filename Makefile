@@ -10,7 +10,7 @@ packages:
 	    joe libffi-dev libffi-dev:i386 mc picocom pkg-config sqlite3 traceroute \
 	    aspell-uk aspell-ru catdoc rlwrap eog sloccount dnsmasq git dos2unix inkscape \
 	    linux-libc-dev:i386 linux-libc-dev-x32-cross mplayer openssh-server net-tools \
-	    adb
+	    adb python3-gtkspellcheck
 
 groups:
 	sudo usermod -aG dialout $$USER
