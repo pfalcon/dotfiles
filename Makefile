@@ -10,6 +10,7 @@ packages:
 	    adb \
 	    aspell-uk aspell-ru \
 	    catdoc \
+	    curl \
 	    dnsmasq \
 	    dos2unix \
 	    eog \
