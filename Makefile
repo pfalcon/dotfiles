@@ -17,4 +17,8 @@ groups:
 
 # Tell dash to give up on /bin/sh (requires interaction)
 dash:
-	sudo dpkg-reconfigure dash
+	# No longer works in 24.04
+	#sudo dpkg-reconfigure dash
+	sudo rm /bin/sh
+	sudo ln -s /bin/bash /bin/sh
+	ls -l /bin/sh
