@@ -22,6 +22,7 @@ packages:
 	    libffi-dev libffi-dev:i386 \
 	    linux-libc-dev:i386 \
 	    mplayer \
+	    mpv \
 	    mc \
 	    net-tools \
 	    openssh-server \
@@ -32,6 +33,7 @@ packages:
 	    sqlite3 \
 	    sloccount \
 	    traceroute \
+	    vlc \
 
 packages-extra:
 	sudo apt install \
