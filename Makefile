@@ -6,11 +6,32 @@ dirs:
 
 # catdoc is xls2csv and friends
 packages:
-	sudo apt install gcc-multilib g++-multilib gnome-disk-utility \
-	    joe libffi-dev libffi-dev:i386 mc picocom pkg-config sqlite3 traceroute \
-	    aspell-uk aspell-ru catdoc rlwrap eog sloccount dnsmasq git dos2unix inkscape \
-	    linux-libc-dev:i386 mplayer openssh-server net-tools \
-	    adb python3-gtkspellcheck
+	sudo apt install \
+	    adb \
+	    aspell-uk aspell-ru \
+	    catdoc \
+	    dnsmasq \
+	    dos2unix \
+	    eog \
+	    g++-multilib \
+	    gcc-multilib \
+	    git \
+	    gnome-disk-utility \
+	    inkscape \
+	    joe \
+	    libffi-dev libffi-dev:i386 \
+	    linux-libc-dev:i386 \
+	    mplayer \
+	    mc \
+	    net-tools \
+	    openssh-server \
+	    picocom \
+	    pkg-config \
+	    python3-gtkspellcheck \
+	    rlwrap \
+	    sqlite3 \
+	    sloccount \
+	    traceroute \
 
 packages-extra:
 	sudo apt install \
