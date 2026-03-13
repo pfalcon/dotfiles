@@ -1,7 +1,10 @@
 1. Migrate user crontab from the old machine.
 
 2. Run mate-tweak and set window manager be "no compositor", to get rid of
-buggy, poorly scalable compositor crap - maybe not in 2023+.
+buggy, poorly scalable compositor crap - maybe not in 2023+. Actually yes,
+in 2026 and forever. Compositor crap actually responsible for slow window
+switching using Alt+Tab (because it tries to show thumbnails of windows,
+which is rather useless).
 
 3. Check /etc/default/ufw for default FORWARD policy, as required for
 masquerading to work.
