@@ -24,3 +24,5 @@ libgtk-3-dev
 
 libwebkit2gtk-4.0-dev
 libcurl4-gnutls-dev
+
+5. Install Brave Browser https://brave.com/linux/
